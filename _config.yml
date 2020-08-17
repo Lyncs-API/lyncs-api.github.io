@@ -1,1 +1,4 @@
 theme: jekyll-theme-leap-day
+title: Lyncs API
+description: A Python API for Lattice QCD applications
+google_analytics: UA-162767835-2
