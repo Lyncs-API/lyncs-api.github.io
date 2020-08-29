@@ -68,28 +68,14 @@ The modules part of lyncs are the following.
 ##### Usage
 
 These modules can be either installed as part of Lyncs,
-
-```
-pip install lyncs[NAME]
-```
-
+`pip install lyncs[NAME]`
 or independently,
-
-```
-pip install lyncs_NAME
-```
+`pip install lyncs_NAME`.
 
 In the first case they can be imported with
-
-```
-from lyncs import NAME
-```
-
-or, in the second case, with
-
-```
-import lyncs_NAME as NAME
-```
+`from lyncs import NAME`
+or, in both cases, with
+`import lyncs_NAME as NAME`.
 
 ### Contributing
 
