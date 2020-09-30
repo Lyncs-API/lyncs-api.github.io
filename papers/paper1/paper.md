@@ -11,7 +11,7 @@ authors:
     orcid: 0000-0002-5532-450X
     affiliation: 1
   - name: Constantia Alexandrou
-    affiliation: "1 2"
+    affiliation: "1, 2"
   - name: Jacob Finkenrath
     affiliation: 1
 affiliations:
