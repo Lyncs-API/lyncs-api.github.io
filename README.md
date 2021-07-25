@@ -1,4 +1,5 @@
-## Lyncs, a Python API for Lattice QCD applications
+# Lyncs-API
+## A Python API for Lattice QCD applications
 
 Lyncs is a Python API for Lattice QCD, currently under development.
 Lyncs aims to bring several popular libraries for Lattice QCD
