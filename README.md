@@ -24,6 +24,7 @@ other libraries is very welcome!
 [DDalphaAMG]:  https://github.com/sbacchio/DDalphaAMG
 [tmLQCD]:  https://github.com/etmc/tmLQCD
 [quda]:  https://github.com/lattice/quda
+[Lyncs-API]: https://github.com/Lyncs-API
 
 ### The Lyncs ecosystem
 
@@ -31,7 +32,7 @@ The Lyncs-API is a top-level framework meant to be user-friendly,
 flexible, modular and extendable. Under the hood, the project is
 divided in many Python (sub-)modules that serve for a specific or
 generic purpose. These modules are collected in the [Lyncs-API]
-organization and they are shortly described in [List of Lyncs sub-modules].
+organization and they are shortly described in the following section.
 
 
 #### List of Lyncs sub-modules
@@ -77,11 +78,28 @@ These modules can be either installed as part of Lyncs,
 `pip install lyncs[NAME]`
 or independently (suggested for now),
 `pip install lyncs_NAME`.
+Please always refer to the README of each module for
+any issue with the installation and usage examples.
 
 In the first case they can be imported with
 `from lyncs import NAME`
 or, in both cases, with
 `import lyncs_NAME as NAME`.
+
+### Development status
+
+**The [Lyncs-API] is currently under development.**
+While the single subpackages might have reached a stable
+and mature level, the final high-level interface still
+needs to be built. If you are seeking to use parts of
+Lyncs in your project, please see the next section.
+
+Any news, updates or information about planned events,
+will be published in the dedicated mailing list.
+Please consider to join for stayin tuned!
+
+https://groups.google.com/g/lyncs-api
+
 
 ### Contributing
 
@@ -90,12 +108,10 @@ applications in Python. We seek for contributions under many
 aspect: linking to libraries, expanding the features of the API
 and writing of documentation and educational-oriented notebooks.
 
-If you want to contribute, please read the [Developer guide].
+If you want to contribute, please express your interest
+sending an email to Simone Bacchio: <s.bacchio@gmail.com>
+with subject starting with "Lyncs-API".
 
-For any news or being informed about planned events,
-please consider registering to our mailing list.
-
-https://groups.google.com/g/lyncs-api
 
 #### Developer guide
 

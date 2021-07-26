@@ -3,4 +3,4 @@ title: Lyncs-API
 logo: logo.png
 description: A Python API for Lattice QCD applications
 google_analytics: UA-162767835-2
-show_downloads: true
+show_downloads: false
